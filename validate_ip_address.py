@@ -11,7 +11,6 @@ def validateIpAddress(IP:str) -> str:
     else:
         return "IP incorrect"
 
-if __name__ == '__main__':
-    print(validateIpAddress("8.8.8.8"))
+validateIpAddress("8.8.8.8")
 
 
